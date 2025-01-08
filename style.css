@@ -1,49 +1,76 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
   color: #333;
-  text-align: center;
+  line-height: 1.6;
 }
 
-/* Header and Navigation */
-header {
-  background: #333;
-  color: #fff;
-  padding: 20px;
+h1, h2, h3 {
+  margin: 0;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: #fff;
+a {
+  color: #007bff;
   text-decoration: none;
-  font-weight: bold;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
 .hero {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
   padding: 50px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
 .hero h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  color: #ccc;
+  margin: 10px 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  font-weight: bold;
 }
 
 /* Section Styles */
@@ -61,32 +88,47 @@ nav ul li a {
   font-size: 1.8rem;
 }
 
-.section p {
-  font-size: 1rem;
+/* Timeline Styles */
+.timeline {
+  border-left: 2px solid #007bff;
+  margin-left: 20px;
 }
 
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  color: #fff;
+.timeline-item {
+  margin: 20px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-item:before {
+  content: '';
+  width: 10px;
+  height: 10px;
   background: #007bff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: bold;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+  top: 5px;
 }
 
-.button:hover {
-  background: #0056b3;
+/* Skills List */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
 }
 
 /* Footer */
 footer {
   background: #333;
   color: #fff;
-  padding: 10px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  text-align: center;
+  padding: 10px 0;
 }
