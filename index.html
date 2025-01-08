@@ -1,72 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Edward Ozelski's Portfolio">
-  <title>Edward Ozelski</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Ozelski - Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-content">
-      <img src="profile.jpg" alt="Edward Ozelski" class="profile-pic">
-      <h1>Edward Ozelski</h1>
-      <p>IT Professional | Business Analyst | Developer</p>
-      <p>Passionate about delivering technology solutions that align with business goals.</p>
-    </div>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav class="navbar">
-    <ul>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <main>
+        <section id="intro">
+            <div class="profile-container">
+                <img src="profile.jpg" alt="Edward Ozelski" class="profile-pic">
+                <h1>Edward Andrew Ozelski</h1>
+                <p>586-563-9284 | <a href="mailto:eaozelsk@gmail.com">eaozelsk@gmail.com</a></p>
+            </div>
+        </section>
 
-  <main>
-    <section id="experience" class="section">
-      <h2>Work Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>Business Analyst</h3>
-          <p>General Motors | 2019–2024</p>
-          <p>Led 5+ IT projects focusing on process optimization and application development. Delivered Six Sigma Black Belt-certified improvements.</p>
-        </div>
-        <div class="timeline-item">
-          <h3>Software Developer</h3>
-          <p>General Motors | 2014–2019</p>
-          <p>Developed custom software solutions and managed databases to optimize business processes.</p>
-        </div>
-      </div>
-    </section>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Results-driven IT professional with over 10 years of experience, specializing in data management, process optimization, and application development...</p>
+        </section>
 
-    <section id="education" class="section">
-      <h2>Education</h2>
-      <p>Bachelor's Degree in Information Technology, Oakland University (GPA: 3.60)</p>
-    </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Java, C#, VBA, JavaScript, T-SQL, PL/SQL, Power Query M, DAX, Python</li>
+                <li><strong>Software:</strong> Microsoft SQL Server, Oracle Database, Microsoft Access, Eclipse, Visual Studio...</li>
+                <li><strong>Certifications:</strong> Six Sigma Green Belt Certified, Six Sigma Black Belt Certified</li>
+                <li><strong>Methodologies:</strong> Agile/Scrum, GM enABLE System Delivery Methodology</li>
+            </ul>
+        </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>Database Development (SQL Server, MySQL)</li>
-        <li>Process Optimization (Six Sigma Black Belt)</li>
-        <li>Agile/Scrum Methodology</li>
-        <li>Software Development (C#, JavaScript)</li>
-      </ul>
-    </section>
+		<section id="experience">
+			<h2>Work Experiences</h2>
+			<div class="timeline">
+				<div class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-content">
+						<h3>CO2 Database SME</h3>
+						<span>General Motors | May 2018 – July 2023</span>
+						<p>Warren, MI</p>
+						<ul>
+							<li>Drove business value as the Application Business Owner by defining and prioritizing project requirements...</li>
+							<li>Transformed a six-week competitive modeling process into a four-hour process...</li>
+							<li>Transitioned the team's reporting from Tableau to Power BI...</li>
+						</ul>
+					</div>
+				</div>
 
-    <section id="contact" class="section">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    </section>
-  </main>
+				<div class="timeline-item">
+					<div class="timeline-dot"></div>
+					<div class="timeline-content">
+						<h3>Software Developer</h3>
+						<span>General Motors | January 2014 – May 2018</span>
+						<p>Warren, MI</p>
+						<ul>
+							<li>Rotated through key roles including Development Lead, Software Developer...</li>
+							<li>Contributed ten IT tools/scripts/process improvements to a massive migration project...</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <footer>
-    <p>© 2025 Edward Ozelski. All rights reserved.</p>
-  </footer>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>Oakland University, Rochester, MI | GPA: 3.60</p>
+            <p>Graduated December 2013</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
