@@ -3,40 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Edward Ozelski's Portfolio and Resume">
+  <meta name="description" content="Edward Ozelski's Portfolio">
   <title>Edward Ozelski</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
+  <header class="hero">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Edward Ozelski" class="profile-pic">
       <h1>Edward Ozelski</h1>
       <p>IT Professional | Business Analyst | Developer</p>
+      <p>Passionate about delivering technology solutions that align with business goals.</p>
     </div>
   </header>
 
+  <nav class="navbar">
+    <ul>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <main>
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>Hello! I'm Edward Ozelski, a passionate IT professional with over 10 years of experience in data management, process optimization, and application development. I love creating solutions that align business goals with technology.</p>
+    <section id="experience" class="section">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Business Analyst</h3>
+          <p>General Motors | 2019–2024</p>
+          <p>Led 5+ IT projects focusing on process optimization and application development. Delivered Six Sigma Black Belt-certified improvements.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Software Developer</h3>
+          <p>General Motors | 2014–2019</p>
+          <p>Developed custom software solutions and managed databases to optimize business processes.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="resume" class="section">
-      <h2>Resume</h2>
-      <p>Click below to view or download my resume.</p>
-      <a href="resume.pdf" class="button" download>Download Resume (PDF)</a>
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <p>Bachelor's Degree in Information Technology, Oakland University (GPA: 3.60)</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Database Development (SQL Server, MySQL)</li>
+        <li>Process Optimization (Six Sigma Black Belt)</li>
+        <li>Agile/Scrum Methodology</li>
+        <li>Software Development (C#, JavaScript)</li>
+      </ul>
     </section>
 
     <section id="contact" class="section">
       <h2>Contact Me</h2>
-      <p>If you'd like to connect, feel free to email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
     </section>
   </main>
 
